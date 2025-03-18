@@ -1,0 +1,40 @@
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1px;
+  background: linear-gradient(135deg, #08080f, #050a1f, #02030a);
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+footer a {
+  background-color: #045faa;
+  border: none;
+  color: #fff;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10%;
+}
+
+footer .social-icons {
+  display: flex;
+  gap: 10px;
+  margin-left: 10px;
+  color: #fff;
+}
+
+footer .social-icons img {
+  width: 20px;
+  height: 20px;
+}
+
+.nome{
+  background-color: transparent;
+
+}
+

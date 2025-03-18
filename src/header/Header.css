@@ -1,0 +1,28 @@
+header{
+    margin-bottom: 50px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  
+    background: linear-gradient(135deg, #08080f, #050a1f, #02030a);
+  }
+  
+  .logo {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .title {
+    flex-grow: 1;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .learn-more {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
