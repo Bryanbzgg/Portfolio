@@ -19,6 +19,7 @@ header{
     flex-grow: 1;
     text-align: center;
     font-weight: bold;
+    margin-left: 70px;
   }
   
   .learn-more {
