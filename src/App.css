@@ -10,9 +10,10 @@
 }
 
 .profile-photo {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
+  width: 150px;          /* tamanho do círculo */
+  height: 150px;         /* tamanho do círculo */
+  border-radius: 50%;    /* deixa redondo */
+  object-fit: cover;     /* mantém proporção sem distorcer */
   margin-bottom: 20px;
 }
 

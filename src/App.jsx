@@ -10,15 +10,34 @@ function App() {
   <Header />
       <div className="container">
         
-        <img src="src/Components/img/download.jpg" alt="Foto de perfil" className="profile-photo" />
+        <img src="src/Components/img/imgPerfill.jpg" alt="Foto de perfil" className="profile-photo" />
         <h1>Bryan</h1>
         <div className="social-links">
-          <button onClick={() => window.open('https://www.linkedin.com', '_blank')}>LinkedIn</button>
+   
           <button onClick={() => window.open('https://github.com/Bryanbzgg', '_blank')}>Projetos</button>
-          <button onClick={() => window.open('https://wa.me/5523423451234?text=Bom%20Dia%2C%20gostaria%20de%20Falar%20com%20Voc%C3%AA%20sobre%20seu%20Portf%C3%B3lio!', '_blank')}>Fale Comigo</button>
+          <button
+  onClick={() => window.open(
+    'https://mail.google.com/mail/?view=cm&fs=1&to=bryanmfusco@gmail.com&su=Olá&body=Quero%20entrar%20em%20contato%20com%20você!',
+    '_blank'
+  )}
+  style={{
+    padding:'12px 24px',
+    backgroundColor:'#37cbf0ff',
+    color:'white',
+    border:'none',
+    borderRadius:'8px',
+    fontWeight:'bold',
+    fontFamily:'sans-serif',
+    cursor:'pointer'
+  }}
+>
+  Fale comigo
+</button>
+
+
         </div>
         <h2>Sobre Mim:</h2>
-        <p>Sou um estudante de Ensino Médio tecnico integrado com programação, buscando expandir meus conhecimentos na área. Apaixonado por e-sports e ciclismo,<br/> acredito que a dedicação e a estratégia de jogos eletrônicos se refletem em minha abordagem para resolver problemas de forma criativa e eficiente.<br/> Estou focado em concluir meus estudos e seguir carreira como programador, aplicando habilidades de raciocínio lógico, trabalho em equipe e constante aprendizado.</p>
+        <p>Sou um estudante de Ensino Médio técnico integrado com programação, apaixonado por tecnologia, inteligência artificial e desenvolvimento web. Fascinado por e-sports e ciclismo, aplico a mesma dedicação e estratégia dos jogos eletrônicos na resolução criativa de problemas. Estou focado em expandir meus conhecimentos em front-end e web design, buscando criar experiências digitais modernas e funcionais, enquanto desenvolvo minhas habilidades em lógica, design e inovação contínua.</p>
         <div className="tech-logos">
           <img src="src/Components/img/logo-javascript.svg" alt="JavaScript Logo" className="tech-logo" />
           <img src="src/Components/img/logo-css3.svg" alt="CSS Logo" className="tech-logo" />
