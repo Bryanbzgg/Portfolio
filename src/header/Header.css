@@ -27,3 +27,38 @@ header{
     font-size: 16px;
     cursor: pointer;
   }
+
+/* Responsividade para telas menores */
+@media (max-width: 600px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+    padding: 8px 4px;
+    gap: 8px;
+  }
+  .logo {
+    width: 38px;
+    height: 38px;
+  }
+  .title {
+    margin-left: 0;
+    font-size: 20px;
+    margin-bottom: 4px;
+  }
+  .header button {
+    width: 90vw;
+    max-width: 220px;
+    font-size: 14px;
+    padding: 8px 12px;
+    margin-top: 6px;
+  }
+}
+
+@media (max-width: 400px) {
+  .header button {
+    display: none;
+  }
+  .title {
+    font-size: 16px;
+  }
+}
