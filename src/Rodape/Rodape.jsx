@@ -8,10 +8,10 @@ function Rodape() {
       <div className="social-icons">
         
         <a href="https://github.com/Bryanbzgg" target="_blank" rel="noopener noreferrer">
-          <img src="public/github.svg" alt="GitHub" />
+          <img src="/img/github.svg" alt="GitHub" />
         </a>
         <a href="https://www.instagram.com/bryanz_bzgg" target="_blank" rel="noopener noreferrer">
-          <img src="public/logo-instagram (1).svg" alt="Instagram" />
+          <img src="/img/logo-instagram (1).svg" alt="Instagram" />
         </a>
       </div>
     </footer>

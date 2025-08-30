@@ -10,7 +10,7 @@ function App() {
   <Header />
       <div className="container">
         
-        <img src="public/imgPerfill.jpg" alt="Foto de perfil" className="profile-photo" />
+        <img src="/img/imgPerfill.jpg" alt="Foto de perfil" className="profile-photo" />
         <h1>Bryan</h1>
         <div className="social-links">
    
@@ -39,9 +39,9 @@ function App() {
         <h2>Sobre Mim:</h2>
         <p>Sou um estudante de Ensino Médio técnico integrado com programação, apaixonado por tecnologia, inteligência artificial e desenvolvimento web. Fascinado por e-sports e ciclismo, aplico a mesma dedicação e estratégia dos jogos eletrônicos na resolução criativa de problemas. Estou focado em expandir meus conhecimentos em front-end e web design, buscando criar experiências digitais modernas e funcionais, enquanto desenvolvo minhas habilidades em lógica, design e inovação contínua.</p>
         <div className="tech-logos">
-          <img src="public/logo-javascript.svg" alt="JavaScript Logo" className="tech-logo" />
-          <img src="public/logo-css3.svg" alt="CSS Logo" className="tech-logo" />
-          <img src="public/logo-react.svg" alt="React Logo" className="tech-logo" />
+          <img src="/img/logo-javascript.svg" alt="JavaScript Logo" className="tech-logo" />
+          <img src="/img/logo-css3.svg" alt="CSS Logo" className="tech-logo" />
+          <img src="/img/logo-react.svg" alt="React Logo" className="tech-logo" />
         </div>
       </div>
       <Rodape />
