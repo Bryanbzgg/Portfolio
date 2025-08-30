@@ -4,7 +4,7 @@ import './Header.css'
 function Header() {
   return (
     <header className="header">
-      <img src="src/Components/img/Logo EuRato.png" alt="Logo" className="logo" />
+      <img src="public/Logo EuRato.png" alt="Logo" className="logo" />
       <h1 className="title">Portfólio</h1>
      <button
   onClick={() => window.open(
