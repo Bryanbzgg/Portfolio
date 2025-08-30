@@ -39,3 +39,33 @@ footer .social-icons img {
 
 }
 
+/* Responsividade para telas menores */
+@media (max-width: 600px) {
+  footer {
+    flex-direction: column;
+    padding: 8px 2px;
+    font-size: 14px;
+    position: static;
+  }
+  footer p {
+    margin-bottom: 8px;
+    font-size: 15px;
+    text-align: center;
+  }
+  footer a {
+    padding: 8px 16px;
+    font-size: 14px;
+    border-radius: 12px;
+    margin-bottom: 6px;
+  }
+  footer .social-icons {
+    margin-left: 0;
+    justify-content: center;
+    gap: 16px;
+  }
+  footer .social-icons img {
+    width: 28px;
+    height: 28px;
+  }
+}
+
